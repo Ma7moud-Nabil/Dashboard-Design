@@ -52,7 +52,7 @@ ul {
 
 /* Start Sidebar */
 .sidebar {
-    width: 250px;
+    width: 200px;
     box-shadow: 0 0 10px #DDD;
     position: fixed;
     height: 100vh;
@@ -131,7 +131,7 @@ ul {
 /* Start Content */
 .content {
     overflow: hidden;
-    margin-left: 250px;
+    margin-left: 200px;
 }
 
 @media (max-width: 767px) {
