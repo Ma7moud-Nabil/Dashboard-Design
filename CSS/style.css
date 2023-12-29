@@ -54,6 +54,8 @@ ul {
 .sidebar {
     width: 250px;
     box-shadow: 0 0 10px #DDD;
+    position: fixed;
+    height: 100vh;
 }
 
 .sidebar>h3 {
@@ -129,6 +131,13 @@ ul {
 /* Start Content */
 .content {
     overflow: hidden;
+    margin-left: 250px;
+}
+
+@media (max-width: 767px) {
+    .content {
+        margin-left: 58px;
+    }
 }
 
 .head .search::before {
